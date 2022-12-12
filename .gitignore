@@ -1,0 +1,11 @@
+target/
+dist/
+node_modules/
+null/
+
+.bloop/
+.bsp/
+.idea/
+
+server/src/main/resources/static/
+

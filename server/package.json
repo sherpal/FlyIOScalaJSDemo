@@ -1,0 +1,16 @@
+{
+  "name": "demo-flyio-js-server",
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "nodemon ./target/scala-3.2.0/server-fastopt/main.js",
+    "prod": "node ./server/main.js"
+  },
+  "type": "module",
+  "dependencies": {
+    "compression": "1.7.4",
+    "express": "4.18.2"
+  },
+  "devDependencies": {
+    "nodemon": "2.0.20"
+  }
+}
